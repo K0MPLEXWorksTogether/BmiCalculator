@@ -53,7 +53,6 @@ class ResultsPage extends StatelessWidget {
                 ],
               ),
               () {
-                print('$bmi $interpretation $resultText');
               },
             ),
           ),

@@ -212,7 +212,6 @@ class _InputPageState extends State<InputPage> {
           ),
           GestureDetector(
             onTap: () {
-              print('Height: $height, Weight: $weight');
               Calculator bmiCalc = Calculator(
                 height: height.toInt(),
                 weight: weight,
